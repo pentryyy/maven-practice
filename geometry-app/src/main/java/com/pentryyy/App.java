@@ -21,12 +21,12 @@ public class App {
         );
 
         // 3D фигуры
-        // Cube cube = new Cube(5);
-        // Sphere sphere = new Sphere(3);
-        // TriangularPrism prism = new TriangularPrism(4, 3, 10);
+        Cube cube = new Cube(5);
+        Sphere sphere = new Sphere(3);
+        TriangularPrism prism = new TriangularPrism(4, 3, 10);
 
-        // System.out.println("-----------Куб----------- \nПлощадь поверхности: " + cube.calculateArea() + "\nПериметр: " + cube.calculatePerimeter());
-        // System.out.println("----------Сфера----------- \nПлощадь поверхности: " + sphere.calculateArea() + "\nПериметр: " + sphere.calculatePerimeter());
-        // System.out.println("----Треугольная призма---- \nПлощадь поверхности: " + prism.calculateArea() + "\nПериметр: " + prism.calculatePerimeter());
+        System.out.println("-----------Куб------------ \nПлощадь: " + cube.calculateArea() + "\nПериметр: " + cube.calculatePerimeter());
+        System.out.println("----------Сфера----------- \nПлощадь: " + sphere.calculateArea() + "\nПериметр: " + sphere.calculatePerimeter());
+        System.out.println("----Треугольная призма---- \nПлощадь: " + prism.calculateArea() + "\nПериметр: " + prism.calculatePerimeter());
     }
 }
